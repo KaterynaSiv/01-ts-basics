@@ -1,7 +1,5 @@
 // TODO Задача 5. Union Type
 // Функція logStatus приймає рядок status і виводить відповідне повідомлення.
-
-// TODO Завдання:
 // Типізуй параметр status так, щоб дозволити тільки три конкретні рядкові значення: "loading", "success", "error"
 // Переконайся, що TypeScript не дозволяє передати будь-яке інше значення.
 // Типізуй повернення функції, зауваж що вона нічого явно не повертає.
@@ -20,4 +18,3 @@ function logStatus(status: "loading" | "success" | "error"): void {
 logStatus("loading");
 logStatus("success");
 logStatus("error");
-// logStatus("pending");

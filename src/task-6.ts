@@ -1,7 +1,5 @@
 // TODO Задача 6. Узагальнені типи
 // Функція getFirstElement приймає масив і повертає його перший елемент.
-
-// TODO Завдання:
 // Зроби функцію узагальненою, використовуючи тип T, щоб вона працювала з масивами будь-якого типу.
 // Додай явну типізацію дженериків у виклики функцій.
 // Переконайся, що тип елемента, який повертається, точно відповідає типу елементів у масиві.
@@ -14,7 +12,6 @@ function getFirstElement<T>(arr: T[]): T {
   return element;
 }
 
-getFirstElement<number>([1, 2, 3]); // 1
-getFirstElement<string>(["a", "b", "c"]); // "a"
-getFirstElement<boolean>([true, false, true]); // true
-// getFirstElement<number>([1, "a", true]);
+getFirstElement<number>([1, 2, 3]);
+getFirstElement<string>(["a", "b", "c"]);
+getFirstElement<boolean>([true, false, true]);
